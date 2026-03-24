@@ -81,3 +81,40 @@ article img{
   margin-bottom: 15px;
   border: 1px solid #e8e8e8;
 }
+
+
+
+
+
+.contact-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-nav a {
+  text-decoration: none;
+  font-family: var(--font-primary);
+  color: var(--color-text);
+  background-color: var(--color-primary);
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Hover para feedback */
+.contact-nav a:hover {
+  background-color: var(--color-primary-dark);
+  color: var(--color-bg);
+}
+
+/* Clique e acessibilidade */
+.contact-nav a:active {
+  transform: scale(0.96);
+}
+
+/* Foco para teclado (acessibilidade) */
+.contact-nav a:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
