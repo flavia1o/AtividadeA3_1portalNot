@@ -35,8 +35,36 @@
 
    <footer>
         <hr>
-        <p>Desenvolvido por: Flávia - 2026</p>
-        <p><a href="mailto:contato@escola.com">Enviar E-mail</a></p>
+        <p>Desenvolvido por: Flávia - 2025B</p>
+        <p><nav class="contact-nav">
+  <!-- O link agora aponta para o ID do popup -->
+    <a href="#popup-contato" aria-label="Abrir opções de contato">
+      📧 Fale Conosco!
+    </a>
+  </nav>
+
+  <!-- Estrutura do Pop-up (fica escondida) -->
+  <div id="popup-contato" class="overlay">
+    <div class="popup-box">
+      <h2>Contato</h2>
+      <p>Como deseja falar conosco?</p>
+
+      <!-- O seu link original de e-mail agora vai aqui dentro -->
+      <a class="email-btn" href="mailto:flavialenz110@://gmail.com.">
+        Enviar E-mail
+      </a>
+       <a class="instagram-btn" href="mailto:@_flaviaullrich.">
+        Enviar Instagram
+      </a>
+      <a class="whatsapp-btn" href="mailto:(55) 99633-1102.">
+        Enviar Whatsapp
+      </a>
+
+      <!-- Botão para fechar o pop-up -->
+      <a href="#" class="close-btn">&times;</a>
+    </div>
+  </div>
+  </nav></p>
     </footer>
 
 </body>
